@@ -55,3 +55,8 @@ html, body{
 .login-form input[type="submit"]:active{
   background-color: var(--purple);
 }
+
+.login-img {
+  display: block;
+  margin: 0 auto;
+}
