@@ -1,0 +1,26 @@
+/* ✅ 하단 네비게이션 바 */
+.navigation-bar {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  z-index: 999;
+  
+  max-width: calc(100vw - 40px);  /* ✅ 뷰포트보다 넘지 않도록 제한 */
+  box-sizing: border-box;
+}
+
+/* ✅ 아이콘 기본 스타일 (검정색 & 크기 통일) */
+.navigation-bar .material-icons-outlined {
+  font-size: 24px;
+  color: black;
+}
+
+.find-icon-licked {
+  margin-right: 10px;
+}
